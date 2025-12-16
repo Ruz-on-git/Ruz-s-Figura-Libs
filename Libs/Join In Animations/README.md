@@ -1,10 +1,10 @@
 # JoinInAnimations
 
-JoinInAnimations is an extension library built on top of [OffloadAnimations]() that allows **two players to synchronize animations together**.
+JoinInAnimations is an extension library built on top of [OffloadAnimations](https://github.com/Ruz-on-git/Ruz-s-Figura-Libs/tree/main/Libs/Offload%20Animations) that allows **two players to synchronize animations together**.
 
-It uses [JustCommunicate]() to send the animation data to your partner and then syncs a start time for different roles in an animation. The animations are played with the initiator being the anchor location.
+It uses [JustCommunicate](https://github.com/Ruz-on-git/Ruz-s-Figura-Libs/tree/main/Libs/Just%20Communicate) to send the animation data to your partner and then syncs a start time for different roles in an animation. The animations are played with the initiator being the anchor location.
 
-If something is already explained in the OffloadAnimations documentation (model setup, animation extraction, manifests, roles), it will be referenced instead of repeated here.
+If something is already explained in the [OffloadAnimations](https://github.com/Ruz-on-git/Ruz-s-Figura-Libs/tree/main/Libs/Offload%20Animations) documentation (model setup, animation extraction, manifests, roles), it will be referenced instead of repeated here.
 
 ---
 
@@ -22,11 +22,11 @@ If something is already explained in the OffloadAnimations documentation (model 
 
 JoinInAnimations requires all of the following:
 
-- [OffloadAnimations]()
-- [JustCommunicate]()
+- [OffloadAnimations](https://github.com/Ruz-on-git/Ruz-s-Figura-Libs/tree/main/Libs/Offload%20Animations)
+- [JustCommunicate](https://github.com/Ruz-on-git/Ruz-s-Figura-Libs/tree/main/Libs/Just%20Communicate)
 - [RuzUtils](https://github.com/Ruz-on-git/Ruz-s-Figura-Libs/tree/main/Libs/Ruz%20Utils)
-- [ExtendedJson]()
-- [WhitelistMe]()
+- [ExtendedJson](https://github.com/Ruz-on-git/Ruz-s-Figura-Libs/blob/main/Libs/ExtendedJson.lua)
+- [WhitelistMe](https://github.com/Ruz-on-git/Ruz-s-Figura-Libs/tree/main/Libs/Whitelist%20Me)
 
 - A shared `config.lua` file defining module paths
 
@@ -39,6 +39,7 @@ Refer to the **OffloadAnimations Installation & Setup** section for:
 ---
 
 ## Installation
+I would highly suggest looking at the example for how to setup an avatar as it will probaly do a better explanation than me.
 
 Place the JoinInAnimations file in your APIs folder (or wherever defined in your config) with your other dependencies.
 

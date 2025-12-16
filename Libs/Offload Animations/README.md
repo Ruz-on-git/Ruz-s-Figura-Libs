@@ -37,7 +37,7 @@ After that you will need to go to your data file for figura, which should be in 
 Then create a folder called ```offloadAnimations_Data``` or whatever you name in the config file. In this folder you will place the animation files and manefest.json
 
 You will also need to have the following libaries:
-- [Extended Json]()
+- [Extended Json](https://github.com/Ruz-on-git/Ruz-s-Figura-Libs/blob/main/Libs/ExtendedJson.lua)
 - [Ruz Utils](https://github.com/Ruz-on-git/Ruz-s-Figura-Libs/tree/main/Libs/Ruz%20Utils)
 
 ---

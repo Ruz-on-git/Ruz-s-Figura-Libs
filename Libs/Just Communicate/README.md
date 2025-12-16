@@ -29,8 +29,8 @@ local JC = require("APIs.JustCommunicate.API")
 JustCommunicate depends on:
 
 -   [Ruz Utils](https://github.com/Ruz-on-git/Ruz-s-Figura-Libs/tree/main/Libs/Ruz%20Utils)
--   [ExtendedJson]()
--   [WhitelistMe]()
+-   [ExtendedJson](https://github.com/Ruz-on-git/Ruz-s-Figura-Libs/blob/main/Libs/ExtendedJson.lua)
+-   [WhitelistMe](https://github.com/Ruz-on-git/Ruz-s-Figura-Libs/tree/main/Libs/Whitelist%20Me)
 
 Make sure these modules are available in the paths defined in your
 `config.lua`.
