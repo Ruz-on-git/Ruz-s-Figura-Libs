@@ -6,18 +6,18 @@ Whitelist me is a simple script for Figura that allows for users to create white
 
 ## Installation
 
-Place this file anywhere in your project and require it normally:
+Place this file in your APIs folder (or a custom location)
 
+Have a config file in your main directory with a path link to where RuzUtils is
+eg:
 ```lua
-local WhitelistMe = require("path.to.whitelist")
-```
-Before use, you must initialize it with RuzUtils (found here):
+local p = config.paths
 
-```lua
----@type RuzUtilsAPI
-local Utils = require("path.to.Utils")
+p.RuzUtils = { Folder = p.APIFolder .. ".RuzsUtils"}
+p.RuzUtils.API = p.RuzUtils.Folder .. ".API"
+p.RuzUtils.CommandManager = p.RuzUtils.Folder .. ".commandManager"
 
-WhitelistMe.init(Utils)
+return config
 ```
 
 ---
@@ -32,8 +32,7 @@ Each whitelist is stored using its own config key:
 local wl = WhitelistMe.get("myWhitelist")
 ```
 
-If it exists, it loads saved data.  
-If not, a new one is created.
+If it exists, it loads saved data. If not, a new one is created.
 
 ---
 

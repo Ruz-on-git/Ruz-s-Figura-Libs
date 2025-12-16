@@ -1,0 +1,43 @@
+{
+  "anims": {
+    "petpetLinear": "9ab92ca4a06bf4b7fd47f3ace33365ab3edae1f2e924a3f3dba17ab333f27fb6",
+    "petpetWithCamera": "2dfd4ceebeef92879a7c59c2bc6f061aef995327e6a7efa998cf799e2d4d557c",
+    "petpetWithFunction": "0e2bbb130af484d5678b8a71bda2df64c52b51804077bf483b957c9175425325",
+    "petpetSmooth": "5a277789773ebc120b2ecb398c11e1043b5eff4040eb51728586af0a8e8bad74",
+    "petpetBezier": "c07c8f47acfd600a22bb01ecbef0a2b257c061c59495f55aa390387c4a8e32ca",
+    "still": "9d70fa9aff9b0105d970bab02baa5821b111c267254507aeed4742d75d7d99be"
+  },
+  "neededParts": {
+    "head": [
+      "petpetBezier",
+      "petpetLinear",
+      "petpetSmooth",
+      "petpetWithCamera",
+      "petpetWithFunction"
+    ],
+    "leftArm": [
+      "petpetBezier",
+      "petpetLinear",
+      "petpetSmooth",
+      "petpetWithCamera",
+      "petpetWithFunction"
+    ],
+    "root": [
+      "petpetBezier",
+      "petpetLinear",
+      "petpetSmooth",
+      "petpetWithCamera",
+      "petpetWithFunction",
+      "still"
+    ]
+  },
+  "ids": {
+    "body": 1,
+    "head": 2,
+    "leftArm": 3,
+    "leftLeg": 4,
+    "rightArm": 5,
+    "rightLeg": 6,
+    "root": 7
+  }
+}

@@ -7,12 +7,9 @@ local WhitelistMe = { ActiveWhitelists = {} }
 local WhitelistInstance = {}
 WhitelistInstance.__index = WhitelistInstance
 
+local cfg = require("config")
 ---@type RuzUtilsAPI
-local Utils
-
-function WhitelistMe.init(utils)
-    Utils = utils
-end
+local Utils = require(cfg.paths.RuzUtils.API)
 
 ---Retrieves or creates a named whitelist instance and loads saved data.
 ---@param name string The unique name for this whitelist (used for config saving).
